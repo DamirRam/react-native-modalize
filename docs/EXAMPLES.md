@@ -220,7 +220,7 @@ import { Dimensions } from 'react-native';
 import { Modalize } from 'react-native-modalize';
 import WebView from 'react-native-webview';
 
-const { height: initialHeight } = Dimensions.get('window');
+const { height: initialHeight } = Dimensions.get('screen');
 
 export const ModalizeWebView = () => {
   const modalizeRef = useRef<Modalize>(null);
@@ -259,7 +259,7 @@ import { Dimensions } from 'react-native';
 import { Modalize } from 'react-native-modalize';
 import { TabView, SceneMap } from 'react-native-tab-view';
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get('screen');
 const Route = () => <View style={[{ flex: 1, backgroundColor: '#439bdf' }]} />;
 
 const Tabs = () => {

@@ -4,7 +4,7 @@ import { Dimensions, EmitterSubscription, ScaledSize } from 'react-native';
 import { isBelowRN65 } from './libraries';
 
 export const useDimensions = (): ScaledSize => {
-  const [dimensions, setDimensions] = React.useState(Dimensions.get('window'));
+  const [dimensions, setDimensions] = React.useState(Dimensions.get('screen'));
 
   const onChange = ({ window }: { window: ScaledSize }): void => {
     setDimensions(window);

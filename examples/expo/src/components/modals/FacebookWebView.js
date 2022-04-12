@@ -15,7 +15,7 @@ import { WebView as RNWebView } from 'react-native-webview';
 
 import { useCombinedRefs } from '../../utils/use-combined-refs';
 
-const { width, height: initialHeight } = Dimensions.get('window');
+const { width, height: initialHeight } = Dimensions.get('screen');
 const isAndroid = Platform.OS === 'android';
 
 const extractHostname = url => {

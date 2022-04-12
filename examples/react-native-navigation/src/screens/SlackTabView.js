@@ -15,7 +15,7 @@ import { TabView, SceneMap } from 'react-native-tab-view';
 import { Navigation } from 'react-native-navigation';
 import faker from 'faker';
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get('screen');
 const isAndroid = Platform.OS === 'android';
 const HEADER_COLLAPSE = 32;
 const HEADER_LIST = 60;

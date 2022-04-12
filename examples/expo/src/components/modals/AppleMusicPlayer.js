@@ -4,7 +4,7 @@ import { Modalize } from 'react-native-modalize';
 
 import { useCombinedRefs } from '../../utils/use-combined-refs';
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get('screen');
 const HEADER_HEIGHT = 100;
 
 export const AppleMusicPlayer = forwardRef(({ animated }, ref) => {

@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 
 import { isWeb } from './utils/devices';
 
-const { height } = Dimensions.get('window');
+const { height } = Dimensions.get('screen');
 
 export default StyleSheet.create({
   modalize: {
